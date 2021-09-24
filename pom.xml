@@ -74,9 +74,9 @@
    <goal>run</goal>
    </goals>
    <configuration>
-   <tasks>
+   <target>
    <copy file="target/springtest.war"
-         todir="E:/software/tomcat-7/tomcat7/webapps"/></tasks>
+         todir="E:/software/tomcat-7/tomcat7/webapps"/></target>
  </configuration>
          </execution>
    </executions>

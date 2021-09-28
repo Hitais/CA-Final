@@ -4,6 +4,6 @@
   tasks:
     - name: Deploy static website
       copy:
-        src: index.html
-        dest: /var/lib/tomcat9/webapps/ROOT/index.html
+        src: /var/lib/jenkins/workspace/CA-ANSIBLE/target/customer-data-0.0.1-SNAPSHOT.war
+        dest: /var/lib/tomcat9/webapps
 ...

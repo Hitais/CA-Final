@@ -1,2 +1,2 @@
 FROM tomcat:8
-COPY target/*.war app.war
+COPY target/*.war /var/lib/tomcat9/webapps

@@ -1,3 +1,4 @@
-FROM tomcat:8
-
-COPY target/*.war /usr/local/tomcat/webapps/customer-data-0.0.1-SNAPSHOT.war
+FROM openjdk:11
+COPY target/*.jar app.war
+EXPOSE 8090
+ENTRYPOINT ["java" ,"-jar","app.war"]

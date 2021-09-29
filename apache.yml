@@ -5,5 +5,5 @@
     - name: Deploy static website
       copy:
         src: /var/lib/jenkins/workspace/CA-ANSIBLE/target/customer-data-0.0.1-SNAPSHOT.war
-        dest: /var/lib/tomcat9/webapps
+        dest: /home/ubuntu/customer
 ...
